@@ -1,0 +1,20 @@
+DeviceName 	        	Concentration(mM)      Annealing_T(C)		Molecular_Weight	Halide_fraction 	Heteroatom_carbon_ratio 	Heteroatom_count 	Hydrogen_Bond_Donor_Count	Hydrogen_Bond_Acceptor_Count 		Rotatable_Bond_Count 		Rigid_Bond_Count 	Topological_Polar_Surface_Area 		Heavy_Atom_Count 	Complexity 	H_Count		 C_Count	I_Count 	Br_Count 	Cl_Count
+TMACl-10mM-20T 			10			20			149.6379		0.2369			0.6				3			1				2					1				5			55.88					8			56.0418		8		 5		0		0		1
+TEACl-10mM-20T			10			20			163.6647		0.2166			0.5				3			1				2					2				5			55.88					9			65.5489		10		 6		0		0		1
+TBAI-10mM-20T			10			20			369.3716		0.3436			0.125				2			0				1					12				0			0					18			116.0944	36		 16		1		0		0
+TBABr-10mM-20T			10			20			322.3711		0.2479			0.125				2			0				1					12				0			0					18			116.0944	36		 16		0		1		0
+TMEPEAI-10mM-20T		10			20			263.1208		0.4823			0.2222				2			0				1					1				6			0					11			95.7861		14		 9		1		0		0
+MOXPEAI-10mM-20T		10			20			279.1202		0.4547			0.3333				3			1				2					3				6			36.87					12			97.7359		14		 9		1		0		0
+PEAI-10mM-20T			10			20			249.094			0.5095			0.25				2			1				1					2				6			27.64					10			64.9679		12		 8		1		0		0			
+PEACl-10mM-20T			10 			20 			157.6425		0.2249			0.25				2			1				1					2				6			27.64					10			64.9679		12		 8		0		0		1
+PAI-10mM-20T			10			20			221.0404		0.5741			0.3333				2			1				1					0				6			27.64					8			46.1417		8		 6		1		0		0
+FPEAI-10mM-20T			10			20			267.0845		0.5463			0.375				3			1				2					2				6			27.64					11			87.2584		11		 8		1		0		0
+ClPEAI-10mM-20T			10			20			283.5391		0.5726			0.375				3			1				2					2				6			27.64					11			87.2584		11		 8		1		0		0
+ClPAI-10mM-20T			10			20			255.4855		0.6355			0.5				3			1				1					0				6			27.64					9			66.9288		7		 6		1		0		0
+HOXPEAI-10mM-20T		10			20			265.0934		0.4787			0.375				3			2				2					2				6			47.87					11			87.2584		12		 8		1		0		0		
+HOXPAI-10mM-20T			10			20			237.0398		0.5354			0.5				3			2				2					0				6			47.87					9			66.9288		12		 6		1		0		0
+TMABr-10mM-20T  		10			20			194.0889 		0.4117 			0.6 				3 			1 				2 					1 				5 			55.88 					8 			56.0418 	8 		 5 		0 		1 		0
+AVAI-10mM-20T	  		10			20			245.0598 		0.5179 			0.8 				4 			2 				3 					4 				1 			64.94 					9 			72.8289 	12 		 5 		1 		0 		0
+
+
+
