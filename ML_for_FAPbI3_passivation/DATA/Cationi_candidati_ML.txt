@@ -1,4 +1,4 @@
-DeviceName 	        	Concentration(mM)      Annealing_T(C)		Molecular_Weight	Halide_fraction 	Heteroatom_carbon_ratio 	Heteroatom_count 	Hydrogen_Bond_Donor_Count	Hydrogen_Bond_Acceptor_Count 		Rotatable_Bond_Count 		Rigid_Bond_Count 	Topological_Polar_Surface_Area 		Heavy_Atom_Count 	Complexity 	H_Count		 C_Count	I_Count 	Br_Count 	Cl_Count
+DeviceName 	        	Concentration(mM)      Annealing_T(°C)  Molecular_Weight(u) 	Halide_fraction 	Heteroatom_carbon_ratio 	Heteroatom_count 	Hydrogen_Bond_Donor_Count	Hydrogen_Bond_Acceptor_Count 		Rotatable_Bond_Count 		Rigid_Bond_Count 	Topological_Polar_Surface_Area 		Heavy_Atom_Count 	Complexity 	H_Count		 C_Count	I_Count 	Br_Count 	Cl_Count
 TMACl-10mM-20T 			10			20			149.6379		0.2369			0.6				3			1				2					1				5			55.88					8			56.0418		8		 5		0		0		1
 TEACl-10mM-20T			10			20			163.6647		0.2166			0.5				3			1				2					2				5			55.88					9			65.5489		10		 6		0		0		1
 TBAI-10mM-20T			10			20			369.3716		0.3436			0.125				2			0				1					12				0			0					18			116.0944	36		 16		1		0		0
@@ -15,6 +15,14 @@ HOXPEAI-10mM-20T		10			20			265.0934		0.4787			0.375				3			2				2					2				6			
 HOXPAI-10mM-20T			10			20			237.0398		0.5354			0.5				3			2				2					0				6			47.87					9			66.9288		12		 6		1		0		0
 TMABr-10mM-20T  		10			20			194.0889 		0.4117 			0.6 				3 			1 				2 					1 				5 			55.88 					8 			56.0418 	8 		 5 		0 		1 		0
 AVAI-10mM-20T	  		10			20			245.0598 		0.5179 			0.8 				4 			2 				3 					4 				1 			64.94 					9 			72.8289 	12 		 5 		1 		0 		0
-
+MEPEACl-10mM-20T    	10			20          171.6693 		0.2065 			0.2222 				2 			1 				1 					2 				6 			27.64 					11 			82.7291 	14 		 9 		0 		0 		1
+MEPEABr-10mM-20T    	10			20          216.1203 		0.3697 			0.2222 				2 			1 				1 					2 				6 			27.64 					11 			82.7291 	14 		 9 		0 		1 		0
+MEPEAI-10mM-20T  	    10			20          263.1208 		0.4823 			0.2222 				2 			1 				1 					2 				6 			27.64 					11 			82.7291 	14 		 9 		1 		0 		0
+n-BAI-10mM-20T  	   	10			20          201.05 			0.6312 			0.5 				2 			1 				1 					2 				0 			27.64 					6 			13.1194 	12 		 4 		1 		0 		0
+iso-BAI-10mM-20T 	    10			20          201.05 			0.6312 			0.5 				2 			1 				1 					1 				0 			27.64 					6 			17.6096 	12 		 4 		1 		0 		0
+n-OAI-10mM-20T  		10			20          257.1572 		0.4935 			0.25 				2 			1 				1 					6 				0 			27.64 					10 			43.8323 	20 		 8 		1 		0 		0
+BBr-10mM-20T  		    10			20          188.0667 		0.4249 			0.2857 				2 			1 				1 					1 				6 			27.64 					9 			55.4072 	10 		 7 		0 		1 		0
+HBr-10mM-20T  		    10			20          182.1031 		0.4388 			0.3333 				2 			1 				1 					4 				0 			27.64 					8 			27.361 		16 		 6 		0 		0 		0
+OATsO-10mM-20T		    10			20          301.4432		0.0			0.3333				5			1				3					6				8			93.22					20			236.8436	28		 14		0		0		0
 
 

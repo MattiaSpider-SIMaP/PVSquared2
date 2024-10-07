@@ -5,6 +5,7 @@ Created on Thu May 11 14:26:25 2023
 @author: Mattia Ragni
 """
 
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -12,7 +13,7 @@ import seaborn as sns
 
 plt.rcParams['figure.dpi'] = 300
 
-TableName = "1&2&5-Rev&For-Clean(Voc-1000)_ML-means.txt"
+TableName = "/home/mattia/Perovskite_passivation_project/PVSquared2/ML_for_FAPbI3_passivation/DATA/1&2&5-Rev&For-Clean(Voc-1000)_ML-means.txt"
 pd.set_option('display.max_rows', None, 'display.max_columns', None)
 
 # The molecular features & processing conditions are loaded as X
@@ -473,18 +474,19 @@ print("Inizio calcolo SHAP Values...")
 rf_regressor.fit(X_stand, Y_Voc)
 
 # Use shap to explain Random Forest results
-explainerRF = shap.TreeExplainer(rf_regressor, check_additivity=False)
+# explainerRF = shap.TreeExplainer(rf_regressor, check_additivity=False)
+explainerRF = shap.TreeExplainer(rf_regressor)
 
 # Get SHAP values on standardized input values
 shap_values_RF = explainerRF.shap_values(X_stand)
 plt.rcParams['figure.dpi'] = 300
 
-# plt.figure()
+plt.figure()
 shap.summary_plot(shap_values_RF, X_noname, plot_type = "dot",
                             color=plt.get_cmap('plasma'),
                             show = False)
 
-# plt.title("Random Forest SHAP values", fontsize=20)
+plt.title("Random Forest SHAP values", fontsize=20)
 
 # Change the colormap of the artists, UNCOMMENT FOR DEFAULT COLORMAP
 my_cmap = plt.get_cmap('viridis')
@@ -493,6 +495,7 @@ for fc in plt.gcf().get_children():
         if hasattr(fcc, "set_cmap"):
             fcc.set_cmap(my_cmap)
 
+# Visualizzare il grafico
 plt.show()
 
 # #### SHAP vs features plot #####
